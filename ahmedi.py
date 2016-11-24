@@ -11,14 +11,14 @@ import time
 logo = ""
 logo +="    __  __           _        _         _  __                          \n"
 logo +="   |  \/  |         | |      (_)       | |/ /                          \n"
-logo += "   | \  / | __ _  __| | ___   _ _ __   | ' / ___  ___  _____   _____  \n"
+logo += "  | \  / | __ _  __| | ___   _ _ __   | ' / ___  ___  _____   _____  \n"
 logo +="   | |\/| |/ _` |/ _` |/ _ \ | | '_ \  |  < / _ \/ __|/ _ \ \ / / _ \  \n"
 logo +="   | |  | | (_| | (_| |  __/ | | | | | | . \ (_) \__ \ (_) \ V / (_) | \n"
 logo +="   |_|  |_|\__,_|\__,_|\___| |_|_| |_| |_|\_\___/|___/\___/ \_/ \___/  \n\n"
 print logo
 print "                  #   Welcome to Simple MPBrute    #       "
 print "                 ##  Write 1 for FTP - 2 for SSH - 2 for smtp  ##      "
-print "                ###  Author: Ermal Ahmedi and Florian Kunushevci  ###     "
+print "                ###  Author: Ermal Ahmedi and Florian Kunushevci     ###     "
 def homeask1():
 	homeask = raw_input("MPBrute../> ")
         if homeask == "1":
@@ -26,7 +26,7 @@ def homeask1():
         elif homeask == "2":
                 ssh()
         elif homeask == "3":
-                telnet()
+                smtp()
         else:
                 print "[+] Error while typing! [+]"
 		homeask1()
@@ -90,7 +90,8 @@ def telnet():
 	print "Under Construction - Telnet"
 	#!usr/bin/python
 
-
+def smtp():
+import paramiko
 import threading, time, random, sys, smtplib, socket
 from smtplib import SMTP
 from copy import copy
