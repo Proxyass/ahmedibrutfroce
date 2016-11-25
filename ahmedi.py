@@ -17,8 +17,8 @@ logo +="   | |  | | (_| | (_| |  __/ | | | | | | . \ (_) \__ \ (_) \ V / (_) | \
 logo +="   |_|  |_|\__,_|\__,_|\___| |_|_| |_| |_|\_\___/|___/\___/ \_/ \___/  \n\n"
 print logo
 print "                  #   Welcome to Simple MPBrute    #       "
-print "                 ##  Write 1 for FTP - 2 for SSH - 2 for smtp  ##      "
-print "                ###  Author: Ermal Ahmedi and Florian Kunushevci     ###     "
+print "                 ##  Write 1 for FTP - 2 for SSH - 3 for smtp  ##      "
+print "                ###  Author: Ermal Ahmedi (SMTP) and Florian Kunushevci(FTP-SSH)     ###     "
 def homeask1():
 	homeask = raw_input("MPBrute../> ")
         if homeask == "1":
