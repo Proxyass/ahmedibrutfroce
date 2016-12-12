@@ -1,9 +1,5 @@
 Guide d'utilisation
 ===
-<!-- $theme: gaia -->
-# ![](https://swissclouding.com/miranio/background.jpg)
-
-##### Markdown presentation writer, powered by [Electron](http://electron.atom.io/)
 
 ##### ([@Ermal Ahmedi](https://twitter.com/ErmalAhmedi))
 
@@ -21,7 +17,7 @@ Type | Usage
 
 ---
 
-###### Text sizing
+###### Type
 How ?       | Usage
 ----------- | -----
 <h2>Methode :1</h2> | # or `FTP`
