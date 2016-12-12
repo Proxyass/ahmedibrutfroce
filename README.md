@@ -3,7 +3,6 @@ Guide d'utilisation
 
 ##### ([@Ermal Ahmedi](https://twitter.com/ErmalAhmedi))
 
-![bg](https://swissclouding.com/miranio/background.jpg)
 
 ---
 
